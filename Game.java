@@ -1,7 +1,7 @@
 public class Game {
     public static void main(String[] args) {
-        // On lance juste la fenêtre
-        GameWindow fenetre = new GameWindow();
-        fenetre.afficher();
+        // On démarre sur l'écran titre
+        EcranTitre ecran = new EcranTitre();
+        ecran.afficher();
     }
 }
